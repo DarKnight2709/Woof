@@ -15,10 +15,12 @@
  */
 package com.example.woof.ui.theme
 
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
 import androidx.compose.ui.unit.dp
 
 val Shapes = Shapes(
-    small = RoundedCornerShape(50.dp),
+    small = CircleShape,
+    medium = RoundedCornerShape(topEnd = 16.dp, bottomStart = 16.dp)
 )
